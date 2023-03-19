@@ -8,7 +8,7 @@
 NOTE: Changing the ability used on a main skill doesn't change which ability is associated with the skill in the code; you must make it as a custom skill in order to receive the appropriate benefits. 
 For instance, using the above STR Intimidation example, changing the CHA of the regular Intimidation skill to STR will not make Remarkable Athlete apply, you'd have to make a custom skill to get that.
 
-* If you wish, you can add your own feature that gives half proficiency into the mix; I have set up the applyHalf function in such a way that it is (hopefully) easy to add into the code.
+* If you wish, you can add your own feature that gives half proficiency into the mix; We have set up the applyHalf function in such a way that it is (hopefully) easy to add into the code.
 E.g. if checkHomebrewFeature then
 		applyHalf(rRoll, rSource, true/false, "Homebrew Feature Name")
 * You still have to write your own checkHomebrewFeature function in that scenario--and decide where in the priority order it lies relative to JoAT and RA--but hopefully that's not any harder than it needs to be.
