@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
+<!--
+MIT License
+
+Copyright (c) 2023 Kael the Adventurer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Icon source by Freepik from www.flaticon.com, modified by Kael the Adventurer
+-->
+
 <root version="3.0">
 	<properties>
 		<loadorder>81</loadorder>
-		<name>5E - Jack of All Trades v1.4.1</name>
-		<version>1.4.1</version>
+		<name>5E - Jack of All Trades v1.4.2</name>
+		<version>v1.4.2</version>
 		<author>Kael the Adventurer and jeremyguebert</author>
 		<description>Extension</description>
 		<ruleset>
@@ -13,11 +39,14 @@
 		</ruleset>
 	</properties>
 	
-	<announcement text="5E Jack of All Trades and Glibness Extension version 1.4.1 by Kael the Adventurer and jeremyguebert" font="emotefont" icon="flames" />
+	<announcement text="5E Jack of All Trades and Glibness Extension v1.4.2 by Kael the Adventurer and jeremyguebert" font="emotefont" icon="JoAT_smol" />
 	
 	<base>
-		<icon name="flames" file="flames.png" />
+		<!-- XML file containing new icons -->
+		<includefile source="graphics/icons.xml" />
+		<!-- XML file containing new strings -->
 		<includefile source="strings/strings.xml"/>
-	<script file="scripts/jackofalltrades.lua" name="JackOfAllTrades"/>
+		
+		<script file="scripts/jackofalltrades.lua" name="JackOfAllTrades"/>
 	</base>
 </root>
