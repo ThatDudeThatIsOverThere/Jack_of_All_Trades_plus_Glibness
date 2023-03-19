@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.0">
+	<properties>
+		<loadorder>81</loadorder>
+		<name>5E - Jack of All Trades v1.4.1</name>
+		<version>1.4.1</version>
+		<author>Kael the Adventurer and jeremyguebert</author>
+		<description>Extension</description>
+		<ruleset>
+			<name>5E</name>
+			<minrelease>1</minrelease>
+		</ruleset>
+	</properties>
+	
+	<announcement text="5E Jack of All Trades and Glibness Extension version 1.4.1 by Kael the Adventurer and jeremyguebert" font="emotefont" icon="flames" />
+	
+	<base>
+		<icon name="flames" file="flames.png" />
+		<includefile source="strings/strings.xml"/>
+	<script file="scripts/jackofalltrades.lua" name="JackOfAllTrades"/>
+	</base>
+</root>
